@@ -1,0 +1,253 @@
+body, h1, h2, h3, h4, p {
+    margin: 1px;
+    padding: 10px;
+}
+.container{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr,1fr;
+    grid-template-rows: 0.2fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr;
+    grid-gap:0.2rem;
+    grid-template-areas: 
+    "nav nav"
+    "main main"
+    "about about"
+    "project project"
+    "experience experience"
+    "education education"
+    "blogs blogs"
+    "footer footer"
+}
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+#navbar {
+    grid-area: nav;
+    background-color: #71abc6;
+    color: rgb(15, 11, 11);
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#menu a.active {
+    font-weight: bold;
+}
+
+
+.a1{
+    float: right;
+}
+.active{
+    float: left;
+    font-size: 40px;
+}
+.active1{
+    color: brown;
+}
+#profilepic{
+    margin-top:40px;
+    margin-right:10px;
+    height:150px;
+    width: auto;
+}
+
+
+.content{
+    grid-area: main;
+    background-color:grey;
+    width: 97.5%;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 100px;
+}
+    #About{
+        
+        font-size: 35px;
+        margin-top:50px ;
+    }
+
+.projects {
+    grid-area: project;
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.Projectclass{
+    display: flex;
+    justify-content: space-around;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0px;
+    text-align: Left;
+}
+#Projectsname {
+        font-size: 35px;
+
+}
+.project img{
+    width: 100px;
+    height: 100px;
+}
+.experience {
+    grid-area: experience;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.execon{
+    display: flex;
+    justify-content: space-around;
+}
+.execlass{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.execlass img{
+    width: 100px;
+    height: auto;
+}
+#experienceName {
+    font-size: 35px;
+}
+.education{
+    grid-area: education;
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.educlass{
+    display: flex;
+    align-items: center;
+}
+#educationName {
+    font-size: 35px;
+}
+.Education img {
+    width: 100px;
+    height: auto;
+}
+.educon {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.educon h5 {
+    margin-bottom: 5px;
+}
+.blogs {
+    grid-area: blogs;
+    background-color: grey;
+    margin-left: 5px;
+    margin-right:10px ;
+    margin-top: 10px;
+}
+.blogclass{
+    display: flex;
+    align-items: center;
+}
+.Blogs img {
+    width: 98px;
+    height: auto;
+}
+ #blogsName {
+        font-size: 35px;
+    }
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    height: 70px;
+    background-color: #71abc6;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+@media only screen and (max-width:500px){
+    .my_container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
+        grid-template-areas:
+        "nav"
+    "main"
+    "about"
+    "project"
+    "experience"
+    "education"
+    "blogs"
+    "footer"
+    }
+    .active1{
+        display: none;
+    }
+
+    .projects {
+        display: block;
+        
+        justify-content: space-around;
+    }
+    .pro_a
+    {
+        display: inline-flex;
+    }
+    .Projectclass{
+        display: inline-block;
+        justify-content: space-around;
+    }
+    .experience {
+        
+        display: block;
+    }
+    .execon{
+        display: block;
+        justify-content: space-around;
+    }
+    .execlass{
+        display: flex;
+        text-align: left;
+        justify-content: space-around;
+    }
+    .content{
+        grid-area: main;
+        background-color:grey;
+        width: 92.5%;
+        padding: 10px;
+        display:flex;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 100px;
+    }
+    
+}

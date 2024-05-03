@@ -1,0 +1,104 @@
+{"items":[
+    {
+        "plant_id":1,
+        "plant_name":"Peace Lily",
+        "plant_description":"The Peace Lily is a popular indoor plant known for its elegant, glossy leaves and white flowers. It thrives in low light conditions and helps purify the air.",
+        "plant_price":15.99,
+        "plant_image":"https://media.gettyimages.com/id/1324612180/photo/peace-lilies.jpg?s=612x612&w=0&k=20&c=wxa9pP5G6WqTf8GS4RmOxgG6TByzJN8HHZzwsWoxKA8=",
+        "plant_availability":"In stock",
+        "plant_careTips":"Keep the soil consistently moist ,Place in indirect sunlight.",
+        "plant_reviews":[
+            {
+              "user": "natureLover",
+              "comment": "Adapts well to indoor environments.",
+              "rating": 4
+            }
+          ],
+        "plant_promotionalData":" Buy two Peace Lilies and get 10% off your total purchase!"
+    },
+    {
+        "plant_id":2,
+        "plant_name":"Snake Plant",
+        "plant_description":"The Snake Plant is a hardy, low-maintenance plant with tall, upright leaves. It's known for its air-purifying properties and ability to thrive in low light.",
+        "plant_price":12.99,
+        "plant_image":"https://cdn.pixabay.com/photo/2020/03/30/19/48/snake-plant-4985304_640.jpg",
+        "plant_availability":"Limited stock",
+        "plant_careTips":" Allow the soil to dry between waterings.",
+        "plant_reviews":[
+            {
+              "user": "Jason",
+              "comment": "It's been months, and it still looks as vibrant as ever.",
+              "rating": 5
+            }
+          ],
+        "plant_promotionalData":"Purchase a Snake Plant and receive a free ceramic pot!"
+    },
+    {
+        "plant_id":3,
+        "plant_name":"Spider Plant",
+        "plant_description":"The Spider Plant is a classic choice for hanging baskets,with long,arching leaves adorned with tiny white flowers.Spider plants are great air purifiers and are safe for pets.",
+        "plant_price":9.05,
+        "plant_image":"https://media.istockphoto.com/id/1173520069/photo/chlorophytum-comosum-spider-plant-in-white-hanging-pot-basket-air-purifying-plants-for-home.jpg?s=612x612&w=0&k=20&c=8N083YcpKvN2toSjcSoy_cXwciNNgJm5dBF7NF-DvB0=",
+        "plant_availability":"Out of stock",
+        "plant_careTips":"Keep the soil evenly moist and provide bright sunlight.",
+        "plant_reviews":[
+            {
+              "user": "Emily",
+              "comment": "My Spider Plant has produced so many 'babies'! It's incredibly rewarding to watch it thrive.",
+              "rating": 3
+            }
+          ],
+        "plant_promotionalData":"Pre-order now and get 15% off your purchase!"
+    },
+    {
+        "plant_id":4,
+        "plant_name":"Rubber Plant",
+        "plant_description":"The Rubber Plant is a stunning indoor tree with large, glossy leaves that add a tropical touch to any room. It's relatively low-maintenance and grows well in bright, indirect light.",
+        "plant_price":24.99,
+        "plant_image":"https://media.istockphoto.com/id/1453039910/photo/beautiful-ficus-elastica-leaves-close-up.jpg?s=2048x2048&w=is&k=20&c=VCKDm7nxPfENvRAg1hEv2_VcPbYnkJpED0xrVAdn1JQ=",
+        "plant_availability":"In stock",
+        "plant_careTips":"Water when the top inch of soil is dry and wipe the leaves with a damp cloth to keep them dust-free.Rotate the plant occasionally for even growth.",
+        "plant_reviews":[
+            {
+              "user": "Rachel",
+              "comment": "My Rubber Plant is the centerpiece of my living room! It brings such a vibrant energy to the space.",
+              "rating": 5
+            }
+          ],
+        "plant_promotionalData":"Purchase a Rubber Plant and receive a free watering can!"
+    },
+    {
+        "plant_id":5,
+        "plant_name":"Petite Sunset Orchid",
+        "plant_description":"One of the easiest varieties to grow as a houseplant—it is affectionately called the beginner orchid.These blooms will open quicker in a warm indoor setting.",
+        "plant_price":68.44,
+        "plant_image":"https://media.gettyimages.com/id/1206269023/photo/purple-orchid-in-bloom.jpg?s=612x612&w=0&k=20&c=j3a-LrWO4bFl7y_KX15VDi4UUPiXTHnEyWqmA1Nqq3A=",
+        "plant_availability":"Limited stock",
+        "plant_careTips":"Thrives in bright indirect light,but can tolerate medium indirect light.Direct sun tolerance is species dependant.Water every 1-2 weeks.",
+        "plant_reviews":[
+            {
+              "user": "Diya",
+              "comment": "This came in a tight buble wrap.I love it.",
+              "rating": 4
+            }
+          ],
+        "plant_promotionalData":" Buy two Peace Lilies and get 10% off your total purchase!"
+    },
+    {
+        "plant_id":6,
+        "plant_name":"Rose Plant",
+        "plant_description":"The rose is a perennial flowering plant known for its beauty, fragrance, and cultural significance.Roses are cherished for their symbolism of love and romance and are used in perfumery,cosmetics and herbal medicine.",
+        "plant_price":20.15,
+        "plant_image":"https://media.gettyimages.com/id/523599042/photo/pink-rose.jpg?s=612x612&w=0&k=20&c=aEhwuwNUo8pLgBaBYShrxe6hSt08eYt0VkdGSZ_3Agk=",
+        "plant_availability":"Out of stock",
+        "plant_careTips":"Water regularly, provide sunlight.",
+        "plant_reviews":[
+            {
+                "user": "gardener123",
+                "comment": "Lovely flowers! Highly recommend.",
+                "rating": 5
+            }
+          ],
+        "plant_promotionalData":" Buy two Peace Lilies and get 10% off your total purchase!"
+    }
+]}
